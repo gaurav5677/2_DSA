@@ -17,4 +17,6 @@ public class _2StudentUse {
 
 //          _1Student is created in heap memory and s1 is stored in stack memory
     }
+
 }
+
