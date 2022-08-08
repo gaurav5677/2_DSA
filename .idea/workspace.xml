@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be351b25-1f6a-4f96-8efc-54d1c95b3d95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1/OOPS/_2StudentUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_1/OOPS/_1OOPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1/OOPS/_1Student.java" afterDir="false" />
+    <list default="true" id="be351b25-1f6a-4f96-8efc-54d1c95b3d95" name="Changes" comment="day 26-27(playing around class and objects)">
+      <change beforePath="$PROJECT_DIR$/src/_1/OOPS/_2StudentUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1/OOPS/_2StudentUse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +77,27 @@
       <option name="project" value="LOCAL" />
       <updated>1659941765705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day 26-27">
+      <created>1659942403848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659942403848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day 26-27(playing around class and objects)">
+      <created>1659942422380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659942422380</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsa" />
+    <MESSAGE value="day 26-27" />
+    <MESSAGE value="day 26-27(playing around class and objects)" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 26-27(playing around class and objects)" />
   </component>
 </project>
