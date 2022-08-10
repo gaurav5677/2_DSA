@@ -14,8 +14,8 @@ public class vehicleUse {
         c.setColor("black");
         c.maxSpeed = 123;
         c.numDoors = 4 ;
-//        c.print();
-        c.printCar();
+        c.print();
+//        c.printCar();
 
         bicycle b = new bicycle();
         b.print();
