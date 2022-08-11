@@ -3,10 +3,10 @@ package _2OOPS;
 public class vehicle {
     // parent class
     private String color;
-  protected    int maxSpeed;
+  public int maxSpeed;
 
     public vehicle (){
-        System.out.println("Car's construtor  ");
+        System.out.println("vehicle's construtor  ");
 
     }
 
@@ -18,7 +18,8 @@ public class vehicle {
         this.color = color;
     }
 
-    public void print() { //function overloading
+    public void print() {
+        //function overloading
         System.out.println("vechicle" + " color " + color + " maxspeed " + maxSpeed);
     }
 }
