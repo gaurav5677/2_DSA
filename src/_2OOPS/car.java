@@ -1,12 +1,10 @@
 package _2OOPS;
 
-import java.awt.*;
-
 public class car extends vehicle  {
  //child class
     int numDoors;
 
-    public Car(){
+    public car(){
         System.out.println("Car's construtor  ");
 
     }
