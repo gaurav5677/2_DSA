@@ -14,7 +14,7 @@ package _4Recursion;
 //Sample Input 1 :
 //3
 //9 8 10
-//8
+
 //Sample Output 1 :
 //true
 //Sample Input 2 :
@@ -25,11 +25,26 @@ package _4Recursion;
 //false
 public class _10checkNumberInArray {
 
+  public static boolean checkNumber( int [] a , int  x , int startI){
+        if( startI == a.length){
+            return  false;
+        }
+
+        if( a[startI]==x){
+            return true;
+        }
+        return  checkNumber(a , x ,startI+1);
+  }
+
+    public static boolean checkNumber( int  b [ ] , int x ){
+      return  checkNumber(b , x , 0);
+    }
 
     public static void main(String[] args) {
         int c [] = { 1,2,3,6,4,5};
         int x = 4 ;
         int s = 0 ;
+        System.out.println(checkNumber(c , x ,s));
 
 
 
