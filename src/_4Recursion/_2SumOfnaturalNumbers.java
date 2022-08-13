@@ -10,7 +10,7 @@ public class _2SumOfnaturalNumbers {
     }
 
     public static void main(String[] args) {
-        int n = 4 ;
+        int n = 2;
         System.out.println(sum(n));
     }
 
