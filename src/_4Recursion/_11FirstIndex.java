@@ -40,6 +40,7 @@ public class _11FirstIndex {
 
 
     public static int firstIndex( int c [] , int b ){
+
         return firstIndex(c , b , 0 );
     }
 }

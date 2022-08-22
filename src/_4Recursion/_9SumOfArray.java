@@ -22,20 +22,17 @@ package _4Recursion;
 //7
 public class _9SumOfArray {
     public static void main(String[] args) {
-         int a [] = { 2,3,1};
-         int startIndex =0;
-        System.out.println(sum(a,startIndex));
+        int a[] = {1,2,3,4,5};
+        int startIndex = 0;
+        System.out.println(sum(a, startIndex));
     }
 
-    public static int sum(int [] c ,int v  ){
+    public static int sum(int[] c, int v) {
 
-        if ( v == c.length){
-            return  0 ;
+        if (v == c.length) {
+            return 0;
         }
-        return c[v]+sum(c , v+1);
+       return ( c[v]+ sum( c, v+1));
     }
 
-    public static int sum (int a []){
-        return  sum(a ,0);
-    }
 }

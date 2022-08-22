@@ -32,7 +32,8 @@ public class _5NumberOfDigit
         if( c ==0 ){
             return 0 ;
         }
-          int ans = count(c/10);
-        return  ans +1;
+          int small  = count(c/10);
+         return  small +1;
+
     }
 }
