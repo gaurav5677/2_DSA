@@ -15,8 +15,20 @@ public class _1ArrayList {
         // without changing the size
         //System.out.println(arr.size());
         //System.out.println(arr.get(1));// indexing starts form zero
-        for (int i = 0; i < a.size() ; i++) {
+        for (int i = 0; i < a.size() ; i++) { // here i hold index
             System.out.println(a.get(i));
+
+
+
+
+        }
+
+
+
+        // Enhanced for loop - for each loop
+
+        for( int i : a){ // here i  hold the value of arraylist element
+            System.out.println(i);
         }
     }
 
