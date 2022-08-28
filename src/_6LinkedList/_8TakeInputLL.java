@@ -21,7 +21,7 @@ public class _8TakeInputLL {
                 //make this node as head node
                 head = currentNode;
             } else {
-                Node<Integer> tail = head;f
+                Node<Integer> tail = head;
                 while (tail.next != null) {//  for n-1 node the next will null..
                     tail = tail.next;
                 }
