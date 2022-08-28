@@ -21,7 +21,7 @@ public class _8TakeInputLL {
                 //make this node as head node
                 head = currentNode;
             } else {
-                Node<Integer> tail = head;
+                Node<Integer> tail = head;f
                 while (tail.next != null) {//  for n-1 node the next will null..
                     tail = tail.next;
                 }
@@ -45,3 +45,6 @@ public class _8TakeInputLL {
     }
 
 }
+
+
+//Time Complexity is O(n^2)
