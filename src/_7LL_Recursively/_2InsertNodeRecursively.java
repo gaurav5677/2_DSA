@@ -25,7 +25,7 @@ public class _2InsertNodeRecursively {
         } else {
             //Node<Integer>smallHead = InsertR(head.next,elem,pos-1);
             // head.next= smallHead;
-            head.next = InsertR(head.next, elem, pos - 1);
+            head.next = InsertR(head.next, elem, pos - 1);// this is really imp step . we must collect the head
             return head;
         }
 
