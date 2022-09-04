@@ -14,20 +14,23 @@ public class _7MergeSortTwoLinkedList {
 
      public static  Node<Integer> mergeSort( Node<Integer>head){
 
-        if( head == null || head.next == null){
+        if( head == null || head.next == null){ // even single node is sorted so this is our base case
             return head ;
         }
         Node< Integer> mid = findMid(head);
 
-        Node<Integer> half1 = head;
-        Node<Integer> half2= mid.next;
-        mid.next = null ;
+        Node<Integer> half1 = head; // collect the first half in the head
 
-        half1 = mergeSort(half1);
-       half2=  mergeSort(half2);
+        Node<Integer> half2= mid.next;// and the second half from mid.next in half2
+        mid.next = null ; // break the linked list and point it towards null ,
 
-            Node<Integer> finalHead  = merge(half1,half2);
-         return  finalHead;
+         // make it before break it ;
+
+        half1 = mergeSort(half1);//sort half2
+       half2=  mergeSort(half2);//sort half2
+
+            Node<Integer> finalHead  = merge(half1,half2); // merge and store the final ll
+         return  finalHead;// and return it .
      }
 
 
