@@ -33,7 +33,7 @@ print(head);
             t1 = t1.next;
         } else {
             head = t2;
-            tail = t1;
+            tail = t2;
             t2 = t2.next;
         }
         while (t1 != null && t2 != null) {
