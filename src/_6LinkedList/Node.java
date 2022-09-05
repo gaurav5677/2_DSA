@@ -4,9 +4,10 @@ public class Node<T> {//T means generics
     // this node class  will have  two things data and the address of the next node
 
 
-    T data ;
-      Node<T> next;
-      Node( T data){
-          this.data = data;
-      }
+    public T data;
+    public Node<T> next;
+
+    public Node(T data) {
+        this.data = data;
+    }
 }
