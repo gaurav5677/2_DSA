@@ -15,9 +15,9 @@ public class _5IncreamentLinkedList {
         n1.next = n2;
         return n1;
     }
-    public static void increment(Node<Integer> head){
+    public static void increment(Node<Integer> head ){
 
-        Node<Integer> temp = head;
+        Node<Integer> temp = head ;
         while(temp != null){
             temp.data++;
             temp= temp.next;
