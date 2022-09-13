@@ -23,7 +23,8 @@ public class TreeTraversal {
                 System.out.println("Enter right child of "+ parentdata);
             }
         }
-        Scanner s = new Scanner( System.in );
+
+         Scanner s = new Scanner( System.in );
         int rootdata = s.nextInt();
 
         if( rootdata== -1 ){
