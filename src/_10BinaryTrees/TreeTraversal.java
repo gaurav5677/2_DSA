@@ -9,7 +9,15 @@ public class TreeTraversal {
         BinaryTreeNode<Integer> root = takeInput( true ,  0 , true );
         preOrder(root);
     }
+    public static void preOrder(BinaryTreeNode<Integer> root){
+        if(root == null ){
+            return;
 
+        }
+        System.out.println(root.data+" ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
 
     public static BinaryTreeNode<Integer> takeInput(boolean isRoot , int parentdata , boolean isLeft){
         if(isRoot ){
@@ -42,14 +50,6 @@ public class TreeTraversal {
 
     }
 
-    public static void preOrder(BinaryTreeNode<Integer> root){
-        if(root == null ){
-            return;
 
-        }
-        System.out.println(root.data+" ");
-        preOrder(root.left);
-        preOrder(root.right);
-    }
 
 }
