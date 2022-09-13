@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be351b25-1f6a-4f96-8efc-54d1c95b3d95" name="Changes" comment="day 26-27(playing around class and objects)">
-      <change afterPath="$PROJECT_DIR$/src/_7LL_Recursively/asdfadsf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10BinaryTrees/NumbersOFNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10BinaryTrees/SumOfNiodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
